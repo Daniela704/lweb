@@ -58,6 +58,13 @@
 			padding-right:12.5%;
 			font-size: 25px;
 		}
+//css-1
+		div.titolo{
+			background-color:#333333;
+			width:100%;
+			left:0;
+			right:0;
+		}
 		ul {
 			list-style-position:inside;
 			text-align: center;
