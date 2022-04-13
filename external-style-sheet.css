@@ -1,5 +1,4 @@
 		body{ 	
-			padding-left:1.5cm;
 			padding-top:.5cm;
 			font-size:120%;
 			background:#006666;
@@ -7,7 +6,9 @@
 			font-family:"Gill Sans", sans-serif;		
 		}
 		h1{
+			margin-left:25%;
 			text-align:center;
+			font-size:50px;
 			color:#669999;
 			
 		}
@@ -23,36 +24,7 @@
 			font-size:130%;
 			text-align:center;
 		}
-		/* The navigation bar */
-		
-		ul {
-			  list-style-type: none;
-			  margin: 0;
-			  padding: 0;
-			  width: 200px;
-			  position:absolute;
-			  background-color: #333;
-			}
 
-		li a {
-		  display: block;
-		  color: #f2f2f2;
-		  padding: 8px 16px;
-		  text-decoration: none;
-		}
-
-		/* Change background on mouse-over */
-		.sidebar a:hover {
-  			background: #ddd;
-  			color: black;
-		}
-		h1{
-			text-align:center;
-			
-		}
-		p{	
-			text-align: center;
-		}
 		div.sidebar{
 			height: 100%;
 			width: 200px;
@@ -66,7 +38,46 @@
 		div.sidebar a{
 			display: block;
 			color: #f2f2f2;
-			padding: 8px 16px;
+			padding-left: 8px;
+			padding-right: 8px;
+			padding-bottom : 20px;
+			padding-top: 80px;
 			text-decoration: none;
-			padding:
+			font-size:23px;
+			vertical-align:center;
+		}
+		.sidebar a:hover {
+  			background: #ddd;
+  			color: black;
+		}
+		p{	
+			text-align: center;
+		}
+		div.home{
+			padding-left:12.5%;
+			padding-right:12.5%;
+			font-size: 25px;
+		}
+		ul {
+			list-style-position:inside;
+			text-align: center;
+		}
+		button{
+		  margin-left:50%;
+		  cursor: pointer;
+		  text-align:center;
+		  outline: none;
+		  color: #333;
+		  background-color: #cccccc;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+		}
+        
+		button:hover {background-color: #fff}
+
+		button:active {
+		  background-color: #3e8e41;
+		  box-shadow: 0 5px #fff;
+		  transform: translateY(4px);
 		}
