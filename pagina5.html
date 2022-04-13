@@ -1,0 +1,63 @@
+<?xml version ="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtm11/DTD/xhtm11-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Pagina 5</title>
+		<link rel="stylesheet" href="external-style-sheet.css" type="text/css">
+	</head>
+
+	<body>
+	    <div class="topbar">
+		<button><a href="home.html">HOME</a></button>
+		<button><a href="pagina1.html">BLOCKLEVEL & INLINE</a></button>
+		<button><a href="pagina2.html">DOCUMENTO VALIDO</a></button>
+		<button><a href="pagina3.html">WELLFORMED</a></button>
+		<button><a href="pagina4.html">MARK-UP LANGUAGE</a></button>
+		</div>
+		<div class="titolo"><h1>Funzione della DTD in XHTML</h1></div>
+		<p>Un DTD si riferisce ad un formato di documento XML e rappresenta gli elementi consentiti dalla pagina web. <br />
+		Ogni documento HTML richiede una dichiarazione del tipo di documento.<br />
+		È una direttiva che comunica al browser web la versione HTML e lo standard in cui è scritta la pagina corrente; <br />
+		questo aiuta diversi browser web ad analizzare correttamente la pagina web.<br />
+		Tecnicamente la dichiarazione Doctype non appartiene alla categoria di tag o elemento in HTML &egrave solo una direttiva per il browser web.<br />
+		</p>
+		<p>La dichiarazione &lt!DOCTYPE&gt non &egrave case sensitive ci&oacute significha che oltre a quella appena scritta, anche le seguenti direttive sono valide:
+			<ul>
+				<li>&lt!doctype&gt</li>
+				<li>&lt!DoctYpe&gt</li>
+			</ul>
+		Essa dovrebbe trovarsi nella prima riga del documento HTML e purtroppo la sua scrittura varia sulla base dell aversione di HTML che stiamo utilizzando.	
+		</p>
+		<p>Mentre nell'ultima versione di HTMl(la quinta) abbiamo un unico semplice modo di rendere la sovrastante dichiarazione<br /></p>
+		&lt!DOCTYPE html&gt
+		Nel caso della versione 4.1 abbiamo 3 possibilit&aacute:
+		<ul>
+			<li>Strict</li>
+			<li>Transitional</li>
+			<li>Frameset</li>
+		</ul>
+		<p>
+		Il DTD Strict &egrave il pi&ugrave efficiente in quanto fornisce un linguaggio XHTML minimo per la creazione di pagine Web.<br /> 
+		Si potrebbe quindi pensare che questo sia limitante e privo di utilit&agrave. <br />
+		In realt&agrave, come accennato in precedenza, &egrave il DTD più efficiente e consente una pi&ugrave rapida convalida dei documenti XHTML. <br />
+		L'idea alla base del suo utilizzo &egrave quella di utilizzare fogli di stile per la visualizzazione piuttosto che per gli elementi di presentazione.<br />
+		Pertanto,il suo uso mira a separare il codice di presentazione dal contenuto.
+		</p>
+		<p>
+		Il DTD Transitional aggiunge più funzionalit&agrave a un documento XHTML.
+		Il supporto per più funzionalit&agrave aumenta il processo di convalida quando viene visualizzato un documento XHTML.<br />
+		Poiché una DTD Transitional fornisce supporto per elementi di presentazione, pu&ograve essere utilizzata per convertire documenti HTML in XHTML. <br />
+		Quest' ultimo non include per&ograve il supporto per i frame (che consente di utilizzare una singola finestra del browser per visualizzare pi&ugrave pagine Web).
+		</p>
+		<p>
+		Il DTD Frameset, &egrave un DTD XHTML completo.<br />
+		Questo DTD ha il supporto per ci&ograve che offre un DTD di transizione oltre al supporto per i frame.<br />
+		Poich&acute &grave il più complesso, &egrave il pi&ugrave lento dei tre quando si tratta di convalidare documenti XHTML.
+		</p>
+	
+	</body>
+
+	
+</html>
