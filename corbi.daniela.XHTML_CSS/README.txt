@@ -2,9 +2,9 @@ Componenti del gruppo:
 -Daniela Corbi
 -Matteo Politi
 Repository Git-Hub:
-
+	https://github.com/Daniela704/lweb
 Esercizio svolto:
-
+	Esercizio numero 2 HTML/CSS
 Descrizione svolgimento:
 Nella pagina web svolta si è pensato di mettere in luce le caratteristiche base di XHTML e CSS.
 Nella pagina "home" vediamo infatti una barra di menù verticale posta a destra che sottolinea 
